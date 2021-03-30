@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Configurations\AlbumConfig.cs" />
     <Compile Include="EF\Initializer.cs" />
     <Compile Include="EF\LibraryDbContext.cs" />
     <Compile Include="Entities\Album.cs" />
