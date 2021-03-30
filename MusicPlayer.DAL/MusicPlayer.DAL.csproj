@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Configurations\AlbumConfig.cs" />
     <Compile Include="Configurations\ArtistConfig.cs" />
+    <Compile Include="Configurations\CategoryConfig.cs" />
     <Compile Include="EF\Initializer.cs" />
     <Compile Include="EF\LibraryDbContext.cs" />
     <Compile Include="Entities\Album.cs" />
