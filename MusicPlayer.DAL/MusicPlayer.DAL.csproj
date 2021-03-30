@@ -57,6 +57,7 @@
     <Compile Include="EF\LibraryDbContext.cs" />
     <Compile Include="Entities\Album.cs" />
     <Compile Include="Entities\Artist.cs" />
+    <Compile Include="Entities\Playlist.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
