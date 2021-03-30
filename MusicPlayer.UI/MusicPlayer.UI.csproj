@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MusicPlayer.BLL\MusicPlayer.BLL.csproj">
+      <Project>{3fa35ed0-5a24-4dd5-a812-58ddaa5dac09}</Project>
+      <Name>MusicPlayer.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
