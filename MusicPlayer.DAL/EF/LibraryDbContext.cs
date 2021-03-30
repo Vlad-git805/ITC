@@ -10,6 +10,7 @@ namespace MusicPlayer.DAL.EF
         public LibraryDbContext()
             : base("name=LibraryDbContext")
         {
+            Database.SetInitializer(new Initializer());
         }
 
        
